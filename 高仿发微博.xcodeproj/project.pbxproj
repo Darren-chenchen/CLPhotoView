@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BD00991D1D30AC00BC78F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00981D1D30AC00BC78F6 /* main.m */; };
+		95BD009C1D1D30AC00BC78F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD009B1D1D30AC00BC78F6 /* AppDelegate.m */; };
+		95BD009F1D1D30AC00BC78F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD009E1D1D30AC00BC78F6 /* ViewController.m */; };
+		95BD00A21D1D30AC00BC78F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00A01D1D30AC00BC78F6 /* Main.storyboard */; };
+		95BD00A41D1D30AC00BC78F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00A31D1D30AC00BC78F6 /* Assets.xcassets */; };
+		95BD00A71D1D30AC00BC78F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00A51D1D30AC00BC78F6 /* LaunchScreen.storyboard */; };
+		95BD00B31D1D31A300BC78F6 /* CLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00B21D1D31A300BC78F6 /* CLTextView.m */; };
+		95BD00B61D1D329F00BC78F6 /* CLPhotosVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00B51D1D329F00BC78F6 /* CLPhotosVIew.m */; };
+		95BD00B81D1D365300BC78F6 /* images_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00B71D1D365300BC78F6 /* images_01@2x.png */; };
+		95BD00BA1D1D366100BC78F6 /* images_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00B91D1D366100BC78F6 /* images_01@3x.png */; };
+		95BD00CF1D1D3E6B00BC78F6 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00BD1D1D3E6B00BC78F6 /* TZAssetCell.m */; };
+		95BD00D01D1D3E6B00BC78F6 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00BF1D1D3E6B00BC78F6 /* TZAssetModel.m */; };
+		95BD00D11D1D3E6B00BC78F6 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00C11D1D3E6B00BC78F6 /* TZImageManager.m */; };
+		95BD00D21D1D3E6B00BC78F6 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95BD00C21D1D3E6B00BC78F6 /* TZImagePickerController.bundle */; };
+		95BD00D31D1D3E6B00BC78F6 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00C41D1D3E6B00BC78F6 /* TZImagePickerController.m */; };
+		95BD00D41D1D3E6B00BC78F6 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00C61D1D3E6B00BC78F6 /* TZPhotoPickerController.m */; };
+		95BD00D51D1D3E6B00BC78F6 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00C81D1D3E6B00BC78F6 /* TZPhotoPreviewCell.m */; };
+		95BD00D61D1D3E6B00BC78F6 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00CA1D1D3E6B00BC78F6 /* TZPhotoPreviewController.m */; };
+		95BD00D71D1D3E6B00BC78F6 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00CC1D1D3E6B00BC78F6 /* TZVideoPlayerController.m */; };
+		95BD00D81D1D3E6B00BC78F6 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD00CE1D1D3E6B00BC78F6 /* UIView+Layout.m */; };
+		95BD014C1D1F6F6600BC78F6 /* error_wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BD014B1D1F6F6600BC78F6 /* error_wine.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95BD00941D1D30AC00BC78F6 /* 高仿发微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿发微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BD00981D1D30AC00BC78F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95BD009A1D1D30AC00BC78F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95BD009B1D1D30AC00BC78F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95BD009D1D1D30AC00BC78F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95BD009E1D1D30AC00BC78F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95BD00A11D1D30AC00BC78F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95BD00A31D1D30AC00BC78F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95BD00A61D1D30AC00BC78F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95BD00A81D1D30AC00BC78F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BD00B11D1D31A300BC78F6 /* CLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTextView.h; sourceTree = "<group>"; };
+		95BD00B21D1D31A300BC78F6 /* CLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTextView.m; sourceTree = "<group>"; };
+		95BD00B41D1D329F00BC78F6 /* CLPhotosVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotosVIew.h; sourceTree = "<group>"; };
+		95BD00B51D1D329F00BC78F6 /* CLPhotosVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPhotosVIew.m; sourceTree = "<group>"; };
+		95BD00B71D1D365300BC78F6 /* images_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images_01@2x.png"; sourceTree = "<group>"; };
+		95BD00B91D1D366100BC78F6 /* images_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images_01@3x.png"; sourceTree = "<group>"; };
+		95BD00BC1D1D3E6B00BC78F6 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		95BD00BD1D1D3E6B00BC78F6 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		95BD00BE1D1D3E6B00BC78F6 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		95BD00BF1D1D3E6B00BC78F6 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		95BD00C01D1D3E6B00BC78F6 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		95BD00C11D1D3E6B00BC78F6 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		95BD00C21D1D3E6B00BC78F6 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		95BD00C31D1D3E6B00BC78F6 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		95BD00C41D1D3E6B00BC78F6 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		95BD00C51D1D3E6B00BC78F6 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		95BD00C61D1D3E6B00BC78F6 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		95BD00C71D1D3E6B00BC78F6 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		95BD00C81D1D3E6B00BC78F6 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		95BD00C91D1D3E6B00BC78F6 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		95BD00CA1D1D3E6B00BC78F6 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		95BD00CB1D1D3E6B00BC78F6 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		95BD00CC1D1D3E6B00BC78F6 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		95BD00CD1D1D3E6B00BC78F6 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		95BD00CE1D1D3E6B00BC78F6 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		95BD014B1D1F6F6600BC78F6 /* error_wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error_wine.png; path = TZImagePickerController/error_wine.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BD00911D1D30AC00BC78F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BD008B1D1D30AC00BC78F6 = {
+			isa = PBXGroup;
+			children = (
+				95BD00961D1D30AC00BC78F6 /* 高仿发微博 */,
+				95BD00951D1D30AC00BC78F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BD00951D1D30AC00BC78F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BD00941D1D30AC00BC78F6 /* 高仿发微博.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BD00961D1D30AC00BC78F6 /* 高仿发微博 */ = {
+			isa = PBXGroup;
+			children = (
+				95BD014D1D1F740A00BC78F6 /* CLPhotoView */,
+				95BD009D1D1D30AC00BC78F6 /* ViewController.h */,
+				95BD009E1D1D30AC00BC78F6 /* ViewController.m */,
+				95BD00971D1D30AC00BC78F6 /* Supporting Files */,
+			);
+			path = "高仿发微博";
+			sourceTree = "<group>";
+		};
+		95BD00971D1D30AC00BC78F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BD009A1D1D30AC00BC78F6 /* AppDelegate.h */,
+				95BD009B1D1D30AC00BC78F6 /* AppDelegate.m */,
+				95BD00A01D1D30AC00BC78F6 /* Main.storyboard */,
+				95BD00A31D1D30AC00BC78F6 /* Assets.xcassets */,
+				95BD00A51D1D30AC00BC78F6 /* LaunchScreen.storyboard */,
+				95BD00A81D1D30AC00BC78F6 /* Info.plist */,
+				95BD00981D1D30AC00BC78F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95BD00BB1D1D3E6B00BC78F6 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				95BD00BC1D1D3E6B00BC78F6 /* TZAssetCell.h */,
+				95BD00BD1D1D3E6B00BC78F6 /* TZAssetCell.m */,
+				95BD00BE1D1D3E6B00BC78F6 /* TZAssetModel.h */,
+				95BD00BF1D1D3E6B00BC78F6 /* TZAssetModel.m */,
+				95BD00C01D1D3E6B00BC78F6 /* TZImageManager.h */,
+				95BD00C11D1D3E6B00BC78F6 /* TZImageManager.m */,
+				95BD00C21D1D3E6B00BC78F6 /* TZImagePickerController.bundle */,
+				95BD00C31D1D3E6B00BC78F6 /* TZImagePickerController.h */,
+				95BD00C41D1D3E6B00BC78F6 /* TZImagePickerController.m */,
+				95BD00C51D1D3E6B00BC78F6 /* TZPhotoPickerController.h */,
+				95BD00C61D1D3E6B00BC78F6 /* TZPhotoPickerController.m */,
+				95BD00C71D1D3E6B00BC78F6 /* TZPhotoPreviewCell.h */,
+				95BD00C81D1D3E6B00BC78F6 /* TZPhotoPreviewCell.m */,
+				95BD00C91D1D3E6B00BC78F6 /* TZPhotoPreviewController.h */,
+				95BD00CA1D1D3E6B00BC78F6 /* TZPhotoPreviewController.m */,
+				95BD00CB1D1D3E6B00BC78F6 /* TZVideoPlayerController.h */,
+				95BD00CC1D1D3E6B00BC78F6 /* TZVideoPlayerController.m */,
+				95BD00CD1D1D3E6B00BC78F6 /* UIView+Layout.h */,
+				95BD00CE1D1D3E6B00BC78F6 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		95BD014D1D1F740A00BC78F6 /* CLPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				95BD00BB1D1D3E6B00BC78F6 /* TZImagePickerController */,
+				95BD00B91D1D366100BC78F6 /* images_01@3x.png */,
+				95BD00B71D1D365300BC78F6 /* images_01@2x.png */,
+				95BD014B1D1F6F6600BC78F6 /* error_wine.png */,
+				95BD00B11D1D31A300BC78F6 /* CLTextView.h */,
+				95BD00B21D1D31A300BC78F6 /* CLTextView.m */,
+				95BD00B41D1D329F00BC78F6 /* CLPhotosVIew.h */,
+				95BD00B51D1D329F00BC78F6 /* CLPhotosVIew.m */,
+			);
+			name = CLPhotoView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BD00931D1D30AC00BC78F6 /* 高仿发微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BD00AB1D1D30AC00BC78F6 /* Build configuration list for PBXNativeTarget "高仿发微博" */;
+			buildPhases = (
+				95BD00901D1D30AC00BC78F6 /* Sources */,
+				95BD00911D1D30AC00BC78F6 /* Frameworks */,
+				95BD00921D1D30AC00BC78F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "高仿发微博";
+			productName = "高仿发微博";
+			productReference = 95BD00941D1D30AC00BC78F6 /* 高仿发微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BD008C1D1D30AC00BC78F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shanku;
+				TargetAttributes = {
+					95BD00931D1D30AC00BC78F6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 95BD008F1D1D30AC00BC78F6 /* Build configuration list for PBXProject "高仿发微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95BD008B1D1D30AC00BC78F6;
+			productRefGroup = 95BD00951D1D30AC00BC78F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BD00931D1D30AC00BC78F6 /* 高仿发微博 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95BD00921D1D30AC00BC78F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BD00A71D1D30AC00BC78F6 /* LaunchScreen.storyboard in Resources */,
+				95BD00A41D1D30AC00BC78F6 /* Assets.xcassets in Resources */,
+				95BD00A21D1D30AC00BC78F6 /* Main.storyboard in Resources */,
+				95BD00D21D1D3E6B00BC78F6 /* TZImagePickerController.bundle in Resources */,
+				95BD014C1D1F6F6600BC78F6 /* error_wine.png in Resources */,
+				95BD00B81D1D365300BC78F6 /* images_01@2x.png in Resources */,
+				95BD00BA1D1D366100BC78F6 /* images_01@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BD00901D1D30AC00BC78F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BD00D41D1D3E6B00BC78F6 /* TZPhotoPickerController.m in Sources */,
+				95BD00B61D1D329F00BC78F6 /* CLPhotosVIew.m in Sources */,
+				95BD00D51D1D3E6B00BC78F6 /* TZPhotoPreviewCell.m in Sources */,
+				95BD009F1D1D30AC00BC78F6 /* ViewController.m in Sources */,
+				95BD00D81D1D3E6B00BC78F6 /* UIView+Layout.m in Sources */,
+				95BD00D71D1D3E6B00BC78F6 /* TZVideoPlayerController.m in Sources */,
+				95BD00CF1D1D3E6B00BC78F6 /* TZAssetCell.m in Sources */,
+				95BD00D01D1D3E6B00BC78F6 /* TZAssetModel.m in Sources */,
+				95BD009C1D1D30AC00BC78F6 /* AppDelegate.m in Sources */,
+				95BD00D61D1D3E6B00BC78F6 /* TZPhotoPreviewController.m in Sources */,
+				95BD00B31D1D31A300BC78F6 /* CLTextView.m in Sources */,
+				95BD00991D1D30AC00BC78F6 /* main.m in Sources */,
+				95BD00D31D1D3E6B00BC78F6 /* TZImagePickerController.m in Sources */,
+				95BD00D11D1D3E6B00BC78F6 /* TZImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95BD00A01D1D30AC00BC78F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BD00A11D1D30AC00BC78F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95BD00A51D1D30AC00BC78F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BD00A61D1D30AC00BC78F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95BD00A91D1D30AC00BC78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95BD00AA1D1D30AC00BC78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BD00AC1D1D30AC00BC78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "高仿发微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShankuSoftware.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95BD00AD1D1D30AC00BC78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "高仿发微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShankuSoftware.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BD008F1D1D30AC00BC78F6 /* Build configuration list for PBXProject "高仿发微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BD00A91D1D30AC00BC78F6 /* Debug */,
+				95BD00AA1D1D30AC00BC78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BD00AB1D1D30AC00BC78F6 /* Build configuration list for PBXNativeTarget "高仿发微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BD00AC1D1D30AC00BC78F6 /* Debug */,
+				95BD00AD1D1D30AC00BC78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BD008C1D1D30AC00BC78F6 /* Project object */;
+}
